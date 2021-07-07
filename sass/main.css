@@ -26,6 +26,7 @@ header .logo_box .logo {
 
 header .heroText_box {
   position: absolute;
+  text-align: center;
   top: 45%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -50,6 +51,38 @@ header .heroText_box .header_primary_sub {
   font-weight: 400;
   font-size: 2.5rem;
   text-align: center;
+  margin-bottom: 4rem;
+}
+
+.btn:link, .btn:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 1rem 5rem;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.btn:link:hover, .btn:visited:hover {
+  -webkit-transform: translateY(-0.7rem);
+          transform: translateY(-0.7rem);
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn:link:active, .btn:visited:active {
+  -webkit-transform: translateY(0rem);
+          transform: translateY(0rem);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.btn_white {
+  color: #7C7070;
+  background-color: #F7F7F7;
+  border-radius: 3rem;
+  font-weight: 400;
+  font-size: 1.7rem;
 }
 
 *,
