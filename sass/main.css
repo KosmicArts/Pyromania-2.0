@@ -5,6 +5,27 @@ body {
   color: #7C7070;
 }
 
+.header_primary {
+  color: #F7F7F7;
+}
+
+.header_primary_main {
+  display: block;
+  font-weight: 500;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.header_primary_sub {
+  display: block;
+  text-transform: lowercase;
+  letter-spacing: .5rem;
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
 header {
   position: relative;
   height: 95vh;
@@ -31,27 +52,6 @@ header .heroText_box {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-}
-
-header .heroText_box .header_primary {
-  color: #F7F7F7;
-}
-
-header .heroText_box .header_primary_main {
-  display: block;
-  font-weight: 500;
-  font-size: 5rem;
-  text-align: center;
-}
-
-header .heroText_box .header_primary_sub {
-  display: block;
-  text-transform: lowercase;
-  letter-spacing: .5rem;
-  font-weight: 400;
-  font-size: 2.5rem;
-  text-align: center;
-  margin-bottom: 4rem;
 }
 
 .btn:link, .btn:visited {
