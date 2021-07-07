@@ -5,6 +5,8 @@ body{
     color: #7C7070;
 }
 
+// HEADER STYLES =================================
+
 .header_primary{
     color: $color-white-1;
 
@@ -26,4 +28,18 @@ body{
         margin-bottom: 4rem;
 
     }
+}
+
+.header_secondary{
+    color: $color-lightGrey-1;
+
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+// TEXT STYLES =================================
+
+.paragraph{
+    font-size: $default-fontSize;
 }
