@@ -107,6 +107,12 @@ header .heroText_box {
   border-bottom: 0.2rem solid #12E1F8;
 }
 
+.infoImage {
+  border: 1rem solid #12E1F8;
+  padding: .5rem;
+  width: 50rem;
+}
+
 *,
 *::after,
 *::before {
