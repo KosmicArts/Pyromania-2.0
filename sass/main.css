@@ -101,6 +101,7 @@ header .heroText_box {
   display: inline-block;
   font-weight: 600;
   font-size: 1.5rem;
+  width: 13rem;
 }
 
 .btn_secondary:hover {
@@ -111,6 +112,22 @@ header .heroText_box {
   border: 1rem solid #12E1F8;
   padding: .5rem;
   width: 50rem;
+}
+
+.u_center_text {
+  text-align: center;
+}
+
+.u_mb_sm {
+  margin-bottom: 1.5rem;
+}
+
+.u_mb_md {
+  margin-bottom: 4rem;
+}
+
+.u_mb_lg {
+  margin-bottom: 8rem;
 }
 
 *,
