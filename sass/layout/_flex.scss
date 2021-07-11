@@ -1,25 +1,25 @@
 // SECTION_INFO =========================================
 
 .section_info{
-    // margin: 10rem;
-    // position: absolute;
+    position: absolute;
 
-    // .infoAll_box{
-    //     display: grid;
-    //     grid-template-columns: 1fr 1fr;
-    // }
+    .infoAll_box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10rem;
+    }
     
-    // .infoText_box{
-    //     position: relative;
-    //     top: 5rem;
+    .infoText_box{
+        position: relative;
+        top: 5rem;
         
-    // }
+    }
     
-    // .infoImage_box{
-    //     display: flex;
-    //     flex-direction: row-reverse;
-    //     justify-content: flex-start;
-    // }
+    .infoImage_box{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+    }
 
 }
 
