@@ -116,33 +116,9 @@ header .heroText_box {
 }
 
 .section_info {
-  position: absolute;
-}
-
-.section_info .infoAll_box {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  grid-gap: 10rem;
-}
-
-.section_info .infoText_box {
-  position: relative;
-  top: 5rem;
-}
-
-.section_info .infoImage_box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  grid-gap: 2rem;
 }
 
 .u_center_text {
@@ -162,7 +138,9 @@ header .heroText_box {
 }
 
 .section_info {
-  padding: 7rem 7rem;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 2rem;
 }
 
 *,
