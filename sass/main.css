@@ -101,24 +101,16 @@ header .heroText_box {
   display: inline-block;
   font-weight: 600;
   font-size: 1.5rem;
-  width: 13rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  border: 0.2rem solid #12E1F8;
 }
 
-.btn_secondary:hover {
-  border-bottom: 0.2rem solid #12E1F8;
-}
-
-.infoImage {
+.introImage {
   border: 1rem solid #12E1F8;
   padding: .5rem;
   width: 50rem;
   height: auto;
-}
-
-.section_info {
-  display: -ms-grid;
-  display: grid;
-  grid-gap: 2rem;
 }
 
 .u_center_text {
@@ -137,10 +129,35 @@ header .heroText_box {
   margin-bottom: 8rem;
 }
 
-.section_info {
+.section_intro {
   display: -ms-grid;
   display: grid;
-  grid-gap: 2rem;
+  grid-gap: 10rem;
+  padding: 20rem;
+}
+
+.section_intro .intro_col_1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+}
+
+.section_intro .intro_col_2 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+}
+
+.section_intro .introText_wrapper {
+  padding-top: 4rem;
+}
+
+.section_intro .introText_wrapper .intro_header {
+  padding-bottom: 1.5rem;
+}
+
+.section_intro .introText_wrapper .intro_paragraph {
+  padding-bottom: 2rem;
 }
 
 *,
