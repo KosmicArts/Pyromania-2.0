@@ -169,6 +169,13 @@ header .heroText_box {
   border-top: solid #7C7070 0.1rem;
 }
 
+.section_benefits {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10rem;
+  padding: 10rem;
+}
+
 *,
 *::after,
 *::before {

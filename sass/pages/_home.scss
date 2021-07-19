@@ -38,7 +38,13 @@
         border-top: solid $color-lightGrey-1 .1rem;
     }
 
-    
-    
-    
+}
+
+.section_benefits{
+    // ===============================================
+    // GRID SPECIFICATIONS
+    // ===============================================
+    display: grid;
+    grid-gap: 10rem;
+    padding: 10rem;
 }
