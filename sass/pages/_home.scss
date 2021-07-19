@@ -1,5 +1,7 @@
 .section_intro{
-    // GRID SPECIFICATIONS ===========================
+    // ===============================================
+    // GRID SPECIFICATIONS
+    // ===============================================
     display: grid;
     grid-gap: 10rem;
     padding: 20rem;
@@ -23,9 +25,19 @@
         }
 
         .intro_paragraph{
+            padding-top: 1rem;
             padding-bottom: 2rem;
         }
     }
+
+    // ===============================================
+    // ELEMENT STYLING
+    // ===============================================
+
+    .intro_paragraph{
+        border-top: solid $color-lightGrey-1 .1rem;
+    }
+
     
     
     

@@ -73,20 +73,6 @@ header .heroText_box {
   transition: all .2s;
 }
 
-.btn:hover {
-  -webkit-transform: translateY(-0.7rem);
-          transform: translateY(-0.7rem);
-  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-}
-
-.btn:active {
-  -webkit-transform: translateY(0rem);
-          transform: translateY(0rem);
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-}
-
 .btn_white {
   color: #7C7070;
   background-color: #F7F7F7;
@@ -94,6 +80,20 @@ header .heroText_box {
   padding: 1rem 5rem;
   font-weight: 400;
   font-size: 1.7rem;
+}
+
+.btn_white:hover {
+  -webkit-transform: translateY(-0.7rem);
+          transform: translateY(-0.7rem);
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn_white:active {
+  -webkit-transform: translateY(0rem);
+          transform: translateY(0rem);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 .btn_secondary {
@@ -104,6 +104,10 @@ header .heroText_box {
   padding: 1rem 2rem;
   border-radius: 1rem;
   border: 0.2rem solid #12E1F8;
+}
+
+.btn_secondary:hover {
+  background-color: #f3f2f2;
 }
 
 .introImage {
@@ -157,7 +161,12 @@ header .heroText_box {
 }
 
 .section_intro .introText_wrapper .intro_paragraph {
+  padding-top: 1rem;
   padding-bottom: 2rem;
+}
+
+.section_intro .intro_paragraph {
+  border-top: solid #7C7070 0.1rem;
 }
 
 *,
