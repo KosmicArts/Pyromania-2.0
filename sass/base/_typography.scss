@@ -43,3 +43,7 @@ body{
 .paragraph{
     font-size: $default-fontSize;
 }
+
+.intro-box_paragraph{
+    border-top: solid $color-lightGrey-1 .1rem;
+}

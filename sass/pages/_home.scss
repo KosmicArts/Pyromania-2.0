@@ -17,14 +17,14 @@
     // SECTION ELEMENT SPACING
     // ===============================================
 
-    .introText_wrapper{
+    .intro-box{
         padding-top: 4rem;
 
-        .intro_header{
+        &_header{
             padding-bottom: 1.5rem;
         }
 
-        .intro_paragraph{
+        &_paragraph{
             padding-top: 1rem;
             padding-bottom: 2rem;
         }
@@ -34,17 +34,35 @@
     // ELEMENT STYLING
     // ===============================================
 
-    .intro_paragraph{
-        border-top: solid $color-lightGrey-1 .1rem;
-    }
-
+    
 }
 
 .section_benefits{
+
     // ===============================================
     // GRID SPECIFICATIONS
     // ===============================================
     display: grid;
     grid-gap: 10rem;
     padding: 10rem;
+
+    .benefits_col_1{
+        grid-column: 1/3;
+    }
+
+    .benefits_col_2{
+        grid-column: 2/3;
+    }
+
+    .benefits_col_3{
+        grid-column: 3/3;
+    }
+
+    // ===============================================
+    // SECTION ELEMENT SPACING
+    // ===============================================
+
+    .benefit-box{
+        
+    }
 }
