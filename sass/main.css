@@ -156,19 +156,6 @@ header .heroText_box {
   grid-column: 2/3;
 }
 
-.section_intro .intro-box {
-  padding-top: 4rem;
-}
-
-.section_intro .intro-box_header {
-  padding-bottom: 1.5rem;
-}
-
-.section_intro .intro-box_paragraph {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-}
-
 .section_benefits {
   display: -ms-grid;
   display: grid;
@@ -191,6 +178,19 @@ header .heroText_box {
 .section_benefits .benefits_col_3 {
   -ms-grid-column: 3;
   grid-column: 3/3;
+}
+
+.intro-box {
+  padding-top: 4rem;
+}
+
+.intro-box_header {
+  padding-bottom: 1.5rem;
+}
+
+.intro-box_paragraph {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 *,
